@@ -1,0 +1,12 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 48px;
+}
+
+@media screen and (max-width: 1000px) {
+  .lead {
+    margin: 0;
+  }
+}
