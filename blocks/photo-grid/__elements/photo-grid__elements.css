@@ -1,0 +1,23 @@
+.photo-grid__elements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, auto));
+  gap: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .photo-grid__elements {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .photo-grid__elements {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .photo-grid__elements {
+    gap: 12px;
+  }
+}
