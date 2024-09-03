@@ -1,0 +1,23 @@
+.place__description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 1200px) {
+  .place__description {
+    row-gap: 27px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place__description {
+    row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place__description {
+    margin: 0 16px;
+  }
+}

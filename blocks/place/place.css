@@ -1,0 +1,24 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
